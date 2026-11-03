@@ -49,18 +49,27 @@ with col3:
 
 st.divider()
 
-# Search
-st.subheader("🔍 Search Programmes")
+# Programme and Scholarship Dropdown
+st.subheader("🔍 Find Your Programme")
 
-search = st.text_input(
-    "Search by programme or scholarship name"
+# Combine programme and scholarship names
+all_options = sorted(
+    set(
+        df["program_name"].dropna().astype(str).tolist()
+        + df["scholarship_name"].dropna().astype(str).tolist()
+    )
+)
+
+selected_option = st.selectbox(
+    "Select Programme or Scholarship",
+    ["All"] + all_options
 )
 
 # Field filter
 all_fields = sorted({
     field.strip()
     for fields in df["study_area"].dropna()
-    for field in fields.split("|")
+    for field in str(fields).split("|")
 })
 
 selected_field = st.selectbox(
@@ -72,7 +81,7 @@ selected_field = st.selectbox(
 all_countries = sorted({
     country.strip()
     for countries in df["programme_countries"].dropna()
-    for country in countries.split("|")
+    for country in str(countries).split("|")
 })
 
 selected_country = st.selectbox(
@@ -83,25 +92,27 @@ selected_country = st.selectbox(
 # Apply filters
 filtered_df = df.copy()
 
-if search:
+# Programme or Scholarship selection
+if selected_option != "All":
+
     filtered_df = filtered_df[
-        filtered_df["program_name"].str.contains(
-            search, case=False, na=False
-        )
+        (filtered_df["program_name"] == selected_option)
         |
-        filtered_df["scholarship_name"].str.contains(
-            search, case=False, na=False
-        )
+        (filtered_df["scholarship_name"] == selected_option)
     ]
 
+# Study area filter
 if selected_field != "All":
+
     filtered_df = filtered_df[
         filtered_df["study_area"].apply(
             lambda x: selected_field in str(x).split("|")
         )
     ]
 
+# Country filter
 if selected_country != "All":
+
     filtered_df = filtered_df[
         filtered_df["programme_countries"].apply(
             lambda x: selected_country in str(x).split("|")
@@ -110,20 +121,23 @@ if selected_country != "All":
 
 st.write(f"Found {len(filtered_df)} programme(s).")
 
-# Display data
-st.dataframe(
-    filtered_df,
-    use_container_width=True,
-    hide_index=True,
-    column_config={
-        "official_program_url": st.column_config.LinkColumn(
-            "Official Programme Website"
-        ),
-        "scholarship_source_url": st.column_config.LinkColumn(
-            "Scholarship Website"
+# Display programme data
+st.subheader("📚 Programme Results")
+
+if not filtered_df.empty:
+
+    st.table(
+        filtered_df.drop(
+            columns=[
+                "official_program_url",
+                "scholarship_source_url"
+            ],
+            errors="ignore"
         )
-    }
-)
+    )
+
+else:
+    st.warning("No programmes found.")
 
 # Programme details
 st.divider()
@@ -133,7 +147,7 @@ if not filtered_df.empty:
 
     selected_program = st.selectbox(
         "Choose a Programme",
-        filtered_df["program_name"].tolist()
+        filtered_df["program_name"].dropna().unique().tolist()
     )
 
     programme = filtered_df[
@@ -159,9 +173,6 @@ if not filtered_df.empty:
         f"[Visit Scholarship Website]({programme['scholarship_source_url']})"
     )
 
-else:
-    st.warning("No programmes found.")
-
 # Download filtered data
 st.divider()
 
@@ -173,3 +184,4 @@ st.download_button(
     file_name="masters_programmes.csv",
     mime="text/csv"
 )
+
