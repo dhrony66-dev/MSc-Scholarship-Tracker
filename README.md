@@ -175,7 +175,7 @@ streamlit run app.py
 
 The application will open in your web browser.
 
-## 7. Data Sources and Verification
+## 7. Data Sources and Verification(Using Demo Data)
 
 The project is designed to prioritize official scholarship providers, government agencies, universities, and programme websites.
 
@@ -227,9 +227,10 @@ Planned improvements include:
 * Deployment as a publicly accessible web application.
 
 ## 10. Author
+Delwar Hossan Rony 
+Statistics & Data Science
+Jatiya Kabi Kazi Nazrul Islam, University
 
-Developed as an independent academic and programming portfolio project.
 
-**Academic Interests:** Statistics, Biostatistics, Epidemiology, Public Health, and Data Science.
 
-**Primary Goal:** To develop a practical data-driven platform that supports international Master's scholarship exploration and application management.
+
