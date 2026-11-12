@@ -1,6 +1,51 @@
 university,country,program,field,funding,ielts,official_website
-University of Oxford,UK,MSc Statistics,Statistics,Scholarship Available,7.0,https://www.ox.ac.uk
-University of Edinburgh,UK,MSc Statistics,Statistics,Scholarship Available,6.5,https://www.ed.ac.uk
-University of Bonn,Germany,MSc Life Science Informatics,Data Science,Scholarship Available,6.5,https://www.uni-bonn.de
-University of Tokyo,Japan,MSc Public Health,Public Health,Scholarship Available,6.5,https://www.u-tokyo.ac.jp
-University of Melbourne,Australia,Master of Biostatistics,Biostatistics,Scholarship Available,6.5,https://www.unimelb.edu.au
+University of Bristol,UK,MSc Medical Statistics and Health Data Science,Statistics|Biostatistics,Commonwealth,6.5-7.0,https://www.bristol.ac.uk
+University of Cambridge,UK,MPhil Population Health Sciences,Public Health,Commonwealth,7.0,https://www.cam.ac.uk
+University of Oxford,UK,MSc Global Health Science and Epidemiology,Epidemiology,Commonwealth,7.0,https://www.ox.ac.uk
+University of Glasgow,UK,MPH Public Health,Public Health,Commonwealth,6.5,https://www.gla.ac.uk
+University of Edinburgh,UK,MSc Global Health Policy,Public Health,Commonwealth,6.5-7.0,https://www.ed.ac.uk
+University College London,UK,MSc Health Economics and Decision Science,Health Statistics,Commonwealth,7.0,https://www.ucl.ac.uk
+King's College London,UK,MSc Global Mental Health,Public Health,Commonwealth,6.5-7.0,https://www.kcl.ac.uk
+London School of Hygiene & Tropical Medicine,UK,MSc Public Health,Public Health,Commonwealth,6.5-7.0,https://www.lshtm.ac.uk
+University of Warwick,UK,MPH Public Health,Public Health,Commonwealth,6.5,https://warwick.ac.uk
+University of Leeds,UK,MPH Public Health International,Public Health,Commonwealth,6.5,https://www.leeds.ac.uk
+Newcastle University,UK,MPH Public Health,Public Health,Commonwealth,6.5,https://www.ncl.ac.uk
+University of Liverpool,UK,MPH Public Health,Public Health,Commonwealth,6.5,https://www.liverpool.ac.uk
+University of St Andrews,UK,MSc Health Data Science,Data Science,Commonwealth,7.0,https://www.st-andrews.ac.uk
+University of Stirling,UK,MSc Health Data Science and AI,Data Science,Commonwealth,6.5,https://www.stir.ac.uk
+Bangor University,UK,MSc Public Health and Health Promotion,Public Health,Commonwealth,6.0-6.5,https://www.bangor.ac.uk
+Maastricht University,Netherlands,Europubhealth+,Public Health|Epidemiology,Erasmus Mundus,6.5,https://www.maastrichtuniversity.nl
+University of Granada,Spain,Europubhealth+,Public Health,Erasmus Mundus,Programme specific,https://www.ugr.es
+University of Sheffield,UK,Europubhealth+,Public Health|Biostatistics,Erasmus Mundus,6.5,https://www.sheffield.ac.uk
+University College Dublin,Ireland,Europubhealth+,Public Health,Erasmus Mundus,6.5,https://www.ucd.ie
+University of Liege,Belgium,Europubhealth+,Public Health,Erasmus Mundus,6.5,https://www.uliege.be
+Jagiellonian University,Poland,Europubhealth+,Public Health,Erasmus Mundus,Programme specific,https://en.uj.edu.pl
+University of Bordeaux,France,Europubhealth+,Public Health Data Science,Erasmus Mundus,Programme specific,https://www.u-bordeaux.com
+EHESP School of Public Health,France,Europubhealth+,Epidemiology|Public Health,Erasmus Mundus,Programme specific,https://www.ehesp.fr
+Heidelberg University,Germany,MSc Medical Biometry/Biostatistics-related studies,Biostatistics,Other Scholarships,6.5,https://www.uni-heidelberg.de
+University of Bologna,Italy,Master's in Statistical Sciences,Statistics,Other Scholarships,6.0-6.5,https://www.unibo.it
+University of Milan,Italy,Master's in Medical Biotechnologies-related studies,Health Sciences,Other Scholarships,6.0-6.5,https://www.unimi.it
+Ghent University,Belgium,MSc Statistical Data Analysis,Statistics,VLIR-UOS / Other,6.5,https://www.ugent.be
+Karolinska Institutet,Sweden,MSc Public Health Sciences,Public Health,SI Scholarship,6.5,https://ki.se
+Lund University,Sweden,MSc Public Health,Public Health,SI Scholarship,6.5,https://www.lunduniversity.lu.se
+Uppsala University,Sweden,Master's in Statistics,Statistics,SI Scholarship,6.5,https://www.uu.se
+Stockholm University,Sweden,MSc Mathematical Statistics and Machine Learning,Statistics|Data Science,SI Scholarship,6.5,https://www.su.se
+Orebro University,Sweden,MSc Statistics: Statistical Modelling and Data Science,Statistics,SI Scholarship,6.5,https://www.oru.se
+University of Debrecen,Hungary,MSc Public Health,Public Health,Stipendium Hungaricum,6.0,https://www.edu.unideb.hu
+University of Pecs,Hungary,MSc Public Health,Public Health,Stipendium Hungaricum,6.0,https://international.pte.hu
+Semmelweis University,Hungary,MSc Public Health,Public Health,Stipendium Hungaricum,6.0,https://semmelweis.hu
+University of Szeged,Hungary,Master's in Statistics-related studies,Statistics,Stipendium Hungaricum,Programme specific,https://u-szeged.hu
+The University of Tokyo,Japan,Master's in Public Health,Public Health,MEXT,Programme specific,https://www.u-tokyo.ac.jp
+Kyoto University,Japan,Master's in Public Health,Public Health,MEXT,Programme specific,https://www.kyoto-u.ac.jp
+Osaka University,Japan,Master's in Medical Statistics-related studies,Biostatistics,MEXT,Programme specific,https://www.osaka-u.ac.jp
+Nagoya University,Japan,Master's in Public Health-related studies,Public Health,MEXT,Programme specific,https://www.nagoya-u.ac.jp
+Seoul National University,South Korea,Master's in Public Health,Public Health,GKS,Programme specific,https://en.snu.ac.kr
+Korea University,South Korea,Master's in Biostatistics-related studies,Biostatistics,GKS,Programme specific,https://www.korea.edu
+Yonsei University,South Korea,Master's in Public Health,Public Health,GKS,Programme specific,https://www.yonsei.ac.kr
+Hanyang University,South Korea,Master's in Data Science,Data Science,GKS,Programme specific,https://www.hanyang.ac.kr
+Stanford University,USA,MS Statistics,Statistics,Knight-Hennessy,Programme specific,https://www.stanford.edu
+Johns Hopkins University,USA,MS Biostatistics,Biostatistics,Fulbright,7.0,https://www.jhu.edu
+Harvard University,USA,SM Biostatistics,Biostatistics,Fulbright,Programme specific,https://www.harvard.edu
+University of Michigan,USA,MS Biostatistics,Biostatistics,Fulbright,6.5-7.0,https://umich.edu
+University of Washington,USA,MS Biostatistics,Biostatistics,Fulbright,7.0,https://www.washington.edu
+Columbia University,USA,MS Biostatistics,Biostatistics,Fulbright,7.0,https://www.columbia.edu
