@@ -1,6 +1,12 @@
-scholarship_name,country,degree,field,funding,deadline,min_cgpa,min_ielts,nationality
-Erasmus Mundus,Europe,Masters,Statistics|Data Science,Fully Funded,2027-01-15,3.00,6.5,Bangladesh
-DAAD Scholarship,Germany,Masters,Public Health|Biostatistics,Fully Funded,2027-02-28,3.25,6.5,Bangladesh
-MEXT Scholarship,Japan,Masters,Statistics|Biostatistics,Fully Funded,2027-05-31,3.00,6.0,Bangladesh
-Fulbright Scholarship,USA,Masters,Statistics|Public Health,Fully Funded,2027-03-15,3.00,6.5,Bangladesh
-Australia Awards,Australia,Masters,Public Health|Epidemiology,Fully Funded,2027-04-30,3.00,6.5,Bangladesh
+scholarship_name,country,degree,field,funding,application_start,deadline,min_cgpa,min_ielts,nationality,last_updated
+Erasmus Mundus,Europe,Masters,Statistics|Data Science|Public Health|Biostatistics,Fully Funded,2026-10,2027-01,Programme Specific,6.5 Typical,All Countries,2026-11-12
+Commonwealth Scholarship,UK,Masters,Public Health|Epidemiology|Statistics,Fully Funded,2026-09-08,2026-10-20,Upper Second Class,University Specific,Bangladesh,2026-11-12
+Fulbright Foreign Student Program,USA,Masters|PhD,Statistics|Public Health|Data Science,Fully Funded,2027-04 Expected,2027-07 Expected,Programme Specific,Programme Specific,Bangladesh,2026-11-12
+MEXT Scholarship,Japan,Masters|PhD,Statistics|Biostatistics|Public Health,Fully Funded,2027-04 Expected,2027-05 Expected,No Universal Minimum,No Universal IELTS,Bangladesh,2026-11-12
+Swedish Institute Scholarship,Sweden,Masters,Public Health|Statistics|Data Science,Fully Funded,2027-02-08,2027-02-24,University Specific,University Specific,Eligible Countries,2026-11-12
+Stipendium Hungaricum,Hungary,Masters|PhD,Statistics|Public Health|Data Science,Fully Funded,2026-11 Expected,2027-01 Expected,University Specific,University Specific,Bangladesh,2026-11-12
+Eiffel Excellence Scholarship,France,Masters|PhD,Mathematics|Biology|Health Sciences|Digital Sciences,Partial Funding,2026-10,2027-01-06,No Universal Minimum,University Specific,All Countries,2026-11-12
+Knight-Hennessy Scholars,USA,Masters|PhD,Statistics|Data Science|Public Health,Fully Funded,2027-Expected,2027-10 Expected,No Minimum Published,Stanford Requirement,All Countries,2026-11-12
+Eric Bleumink Fellowship,Netherlands,Masters,Statistics|Public Health|Epidemiology,Not Confirmed,Not Confirmed,Not Confirmed,Not Confirmed,Not Confirmed,To Be Verified,2026-11-12
+VLIR-UOS ICP Connect,Belgium,Masters,Public Health|Epidemiology|Development,Fully Funded,Programme Specific,2027-02-28,Programme Specific,Programme Specific,Eligible Countries,2026-11-12
+Global Korea Scholarship (GKS),South Korea,Masters|PhD,Statistics|Public Health|Data Science,Fully Funded,2027-02 Expected,2027-03 Expected,80 Percent or Equivalent,Not Mandatory Universally,Bangladesh,2026-11-12
